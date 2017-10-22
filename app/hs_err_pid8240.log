@@ -1,0 +1,40 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 32505856 bytes for committing reserved memory.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_linux.cpp:2827), pid=8240, tid=139937478321920
+#
+# JRE version: OpenJDK Runtime Environment (7.0_111-b01) (build 1.7.0_111-b01)
+# Java VM: OpenJDK 64-Bit Server VM (24.111-b01 mixed mode linux-amd64 compressed oops)
+# Derivative: IcedTea 2.6.7
+# Distribution: Ubuntu 14.04 LTS, package 7u111-2.6.7-0ubuntu0.14.04.3
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f45c4076000):  VMThread [stack: 0x00007f45bb9fa000,0x00007f45bbafb000] [id=8249]
+
+Stack: [0x00007f45bb9fa000,0x00007f45bbafb000],  sp=0x00007f45bbaf9490,  free space=1021k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0x95a595]
+V  [libjvm.so+0x494b84]
+V  [libjvm.so+0x7d3a5b]
+V  [libjvm.so+0x7ce41f]
+V  [libjvm.so+0x84371b]
+V  [libjvm.so+0x844590]
+V  [libjvm.so+0x844c7b]
+V  [libjvm.so+0x840668]

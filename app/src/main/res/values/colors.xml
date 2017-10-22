@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dialog_text_color">#161515</color>
+    <color name="text_color">#2b1416</color>
+    <!--<color name="translucent"> #80000000</color>-->
+    <color name="Dark_black">#d8333232</color>
+    <color name="Light_black">#685c5c</color>
+    <color name="card_text_color">#abf52734</color>
+    <color name="card_background_color">#918181</color>
+    <color name="splash_text_color">#f5a817</color>
+    <color name="card_head">#f5a8a9ae</color>
+
+    <!-- for online cards -->
+    <color name="just">#d5dee2</color>
+    <color name="net">#8419aff1</color>
+    <color name="inspire">#a6f1a618</color>
+    <color name="code">#eeff8c42</color>
+    <color name="card_back">#d5dee2</color>
+
+    <!-- for offline cards-->
+    <color name="tattoo">#ffffff</color>
+    <color name="brain">#f430a6d9</color>
+    <color name="counter">#e5ffe066</color>
+    <color name="treasure">#d5dee2</color>
+    <color name="gadget">#eeff8c42</color>
+    <color name="performer">#8419aff1</color>
+    <color name="tricology">#eed5dee2</color>
+    <color name="total">#e5ffe066</color>
+
+    <!-- for sponcers cards-->
+    <color name="first">#d5dee2</color>
+    <color name="second">#8419aff1</color>
+    <color name="third">#a6f5a50b</color>
+    <color name="fourth">#eeff8c42</color>
+    <color name="fifth">#eed5dee2</color>
+    <color name="sixth">#8419aff1</color>
+    <color name="seventh">#8be7d7</color>
+    <color name="eighth">#e5ffe066</color>
+    <color name="ninth">#8419aff1</color>
+
+
+    <color name="cardview_shadow_start_color">#f6747473</color>
+    <color name="cardview_shadow_end_color">#7fb6b6b0</color>
+
+    <array name="online">
+        <item>@color/just</item>
+        <item>@color/net</item>
+        <item>@color/inspire</item>
+        <item>@color/code</item>
+    </array>
+
+    <array name="offline">
+        <item>@color/tattoo</item>
+        <item>@color/brain</item>
+        <item>@color/counter</item>
+        <item>@color/treasure</item>
+        <item>@color/gadget</item>
+        <item>@color/performer</item>
+        <item>@color/tricology</item>
+        <item>@color/total</item>
+    </array>
+
+    <array name="sponsors">
+        <item>@color/first</item>
+        <item>@color/second</item>
+        <item>@color/third</item>
+        <item>@color/fourth</item>
+        <item>@color/fifth</item>
+        <item>@color/sixth</item>
+        <item>@color/seventh</item>
+        <item>@color/eighth</item>
+        <item>@color/ninth</item>
+        </array>
+
+</resources>

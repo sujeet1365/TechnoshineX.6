@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/imag"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:text="Net Hunt"
+        android:textSize="80dp"
+        android:textColor="#ffffff"
+        android:textStyle="italic|bold"
+        android:gravity="center|top"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:id="@+id/textView" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Instructions"
+        android:textSize="30dp"
+        android:textColor="#B9000000"
+        android:textStyle="bold|italic"
+        android:background="@drawable/head"
+        android:gravity="center"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/linearLayout2" />
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/chalkboard_wood_black"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="30dp"
+        android:layout_weight="5"
+        android:paddingBottom="30dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:gravity="right"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:text="@string/text1"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="@android:color/transparent"
+            android:text="@string/text2"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/text3"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/text4"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    <Button
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="keep calm and Google"
+        android:textSize="20dp"
+        android:onClick="play"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:elevation="15dp"
+        android:alpha="5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button2" />
+
+
+</LinearLayout>

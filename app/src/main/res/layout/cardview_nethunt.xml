@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:layout_margin="0dp"
+    android:clickable="true"
+    android:padding="0dp"
+    app:cardBackgroundColor="@color/card_back"
+    app:cardElevation="5dp"
+    app:contentPadding="0dp"
+    app:cardCornerRadius="0dp"
+    app:cardPreventCornerOverlap="false"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:id="@+id/nethunt_relative_layout">
+
+        <ImageView
+            android:layout_height="400dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/net"
+            android:scaleType="centerCrop"
+            android:alpha="0.3"
+            android:id="@+id/nethunt_img"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:clickable="true"
+            android:text="Instructions"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:id="@+id/instruction_text"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@android:color/transparent"
+            android:paddingTop="30dp"
+            android:layout_weight="5"
+            android:paddingBottom="30dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:gravity="left"
+            android:id="@+id/linearLayout2"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/black"
+                android:text="@string/text1"
+                android:textSize="17dp"
+                android:gravity="left"
+                android:id="@+id/instruction_1"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/black"
+                android:background="@android:color/transparent"
+                android:text="@string/text2"
+                android:textSize="17dp"
+                android:id="@+id/instruction_2"
+                android:gravity="left"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/text3"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"
+                android:id="@+id/instruction_3"
+                android:gravity="left"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/text4"
+                android:textSize="17dp"
+                android:id="@+id/instruction_4"
+                android:gravity="left"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Let's Play"
+            android:id="@+id/start_nethunt"
+            android:onClick="start_nethunt"
+            android:layout_alignBottom="@+id/nethunt_img"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_border"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+
+
